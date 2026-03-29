@@ -1,8 +1,8 @@
 # JavaScript's Hidden Engine: The Event Loop
 
-Have you ever clicked a button on a website and the whole page froze? Or wondered how JavaScript can fetch data from a server without stopping everything else from working? The answer lives in one of the most misunderstood parts of JavaScript — the event loop.
+Often  when we start learning programming, the three things we are taught when we get to JavaScript are alert, prompt and confirm which are all synchronous. If you haven't come across these, have you ever clicked a button on a website and the whole page froze? Or wondered how JavaScript can fetch data from a server without stopping everything else from working? The answer is the event loop.
 
-This is the first article in a three-part series on async JavaScript. By the end of all three, you'll understand not just *how* to write async code, but *why* it works the way it does.
+In an effort to climb the hill to mastery, I'll cover the fundamentals and this is the first article in a three-part series on async JavaScript. By the end of all three, you and I will understand not just *how* to write async code, but *why* it works the way it does.
 
 ---
 

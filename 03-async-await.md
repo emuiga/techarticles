@@ -6,6 +6,28 @@ This is the syntax that most JavaScript developers use today. It's built into Re
 
 ---
 
+## The Pizza Shop
+
+Before we touch any code, let's go get pizza.
+
+You walk into a busy pizza place on a Friday night. It's packed. You step up to the counter and place your order — a large pepperoni. The cashier smiles, hands you a little receipt with the number **47** on it, and says *"we'll call you when it's ready."*
+
+You don't stand at the counter staring at the oven. You don't block the line. You go find a seat. You scroll your phone. You talk to the person you came with. You live your life. The kitchen is doing its thing — stretching dough, layering toppings, watching the oven — completely separate from what you're doing.
+
+Then over the speaker: *"Number 47!"*
+
+You get up, walk to the counter, pick up your pizza, and carry on.
+
+That is `async/await`.
+
+You (the JavaScript thread) placed a request (called an async function). Instead of freezing in place waiting for it, you were handed a ticket (a Promise) and sent to sit down. The kitchen (browser/Node.js APIs) handled the slow work independently. When it was done, your number was called (the Promise resolved) and you picked up the result (`await` gave you the value).
+
+The counter never blocked. Other customers kept ordering. The restaurant kept running.
+
+Now let's see what that looks like in code.
+
+---
+
 ## What async/await Actually Is
 
 First, the most important thing to understand:
